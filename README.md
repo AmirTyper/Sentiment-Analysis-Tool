@@ -26,6 +26,7 @@ An easy-to-use Sentiment Analysis tool in Python using TextBlob library that ana
 <pre><code>git clone https://github.com/AmirTyper/Sentiment-Analysis-Tool
 cd Sentiment-Analysis-Tool
 pip install -r requirements.txt
+python -m textblob.download_corpora
 python sentiment_analysis.py
 </code></pre>
 
